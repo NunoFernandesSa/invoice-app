@@ -1,7 +1,9 @@
+import Wrapper from "./components/Wrapper";
+
 export default function Home() {
   return (
-    <div className="">
-      <button className="btn btn-accent">test</button>
-    </div>
+    <Wrapper>
+      <div className=""></div>
+    </Wrapper>
   );
 }
